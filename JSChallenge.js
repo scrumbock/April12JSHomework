@@ -61,3 +61,11 @@ function alertName(somebodysName){
 
 alertName("George")
 
+// // 7.) Declare a function that takes no arguments but prints something to the console. Try running it after it has been declared.
+
+function printConsole() {
+	console.log("Hey! How's it going?");
+}
+
+printConsole()
+
