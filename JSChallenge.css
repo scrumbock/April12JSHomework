@@ -1,0 +1,9 @@
+body {
+	background-color: skyblue;
+}
+
+p {
+	font-family: Helvetica bold;
+	font-size: 32px;
+	text-align: center;
+}
