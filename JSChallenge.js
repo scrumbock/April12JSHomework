@@ -13,3 +13,12 @@ var red = (" but a slow learner...")
 
 console.log(blue + red)
 
+// // 2.) Create a multidimensional array related to a subject that interests you. Output two of the items in sub-arrays to the console.
+
+var bandGenres = ["Punk", "Post-Punk", "Psychedelic", "Industrial"];
+var bandNames = ["Buzzcocks", "Joy Division", "King Gizzard", "Ministry"];
+var bandsAreCool = [bandGenres, bandNames];
+
+console.log(bandsAreCool[0][2])
+console.log(bandsAreCool[1][2])
+
