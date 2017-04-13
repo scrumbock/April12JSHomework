@@ -69,3 +69,28 @@ function printConsole() {
 
 printConsole()
 
+// 8.) Declare a function that depending upon which virtual 'door' was entered tells the user they've received a different 'prize' in an alert. After declaring the function, try running it with different options. There must be at least 3 doors.
+
+var door = 1
+
+function gameShow(door) {
+	if(door === 1) {
+		alert("You've chosen Door # " + door + " You've won a brand new car!");
+	}
+	else if(door === 2) {
+		alert("You've chosen Door # " + door + " You've won a massage with Josh!");
+	}
+	else if(door === 3) {
+		alert("You've chosen Door # " + door + " You've won a Vintage 1989 Encyclopedia Britannica Set!");
+	}
+	else {
+		alert("You chose Door # " + door + " This is NOT a winning door, so you get absolutely nothing!");
+	}
+};
+
+gameShow(2);
+gameShow(1);
+gameShow(4);
+gameShow(3);
+
+// END of HOMEWORK
