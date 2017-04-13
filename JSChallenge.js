@@ -1,4 +1,4 @@
-// //  1.) Create a script with two variables, each assigned to a number. Add them together and output the result to the console. 
+// // //  1.) Create a script with two variables, each assigned to a number. Add them together and output the result to the console. 
 
 
 var blue = 2
@@ -6,14 +6,14 @@ var red = 6
 
 console.log(blue + red) 
 
-// // 1 part 2 ) Now do the same with two strings.
+// // // 1 part 2 ) Now do the same with two strings.
 
 var blue = ("I am a hard worker,")
 var red = (" but a slow learner...")
 
 console.log(blue + red)
 
-// // 2.) Create a multidimensional array related to a subject that interests you. Output two of the items in sub-arrays to the console.
+// // // 2.) Create a multidimensional array related to a subject that interests you. Output two of the items in sub-arrays to the console.
 
 var bandGenres = ["Garage", "Post-Punk", "Psychedelic", "Industrial"];
 var bandNames = ["Kinks", "Joy Division", "King Gizzard and the Lizard Wizard", "Ministry"];
@@ -47,10 +47,19 @@ var button = document.getElementById("numButton");
 
 // 5.) Write a similar script to check if a string stored in a variable is the same as another string.
 
-// function getInfo() {
-// 	var 
-// }
 
+	var someStuff = ("This is some stuff.")
+	var someOtherStuff = ("This is some other stuff.")
+	
+	if (someStuff === someOtherStuff)  {
+		alert("We have a match!")
+	}
+	else {
+		alert("Sorry Charlie - your strings don't match.")
+	}
+
+
+// NOTE for #5 above: I used the console to check the output, which in this case is the else outcome, as the strings are not the same.
 
 // 6.) Declare a function that takes a name as an argument and tells the user what name they've entered. Try running it after it has been declared.
 
@@ -61,7 +70,7 @@ function alertName(somebodysName){
 
 alertName("George")
 
-// // 7.) Declare a function that takes no arguments but prints something to the console. Try running it after it has been declared.
+// // // 7.) Declare a function that takes no arguments but prints something to the console. Try running it after it has been declared.
 
 function printConsole() {
 	console.log("Hey! How's it going?");
@@ -69,7 +78,7 @@ function printConsole() {
 
 printConsole()
 
-// 8.) Declare a function that depending upon which virtual 'door' was entered tells the user they've received a different 'prize' in an alert. After declaring the function, try running it with different options. There must be at least 3 doors.
+// // 8.) Declare a function that depending upon which virtual 'door' was entered tells the user they've received a different 'prize' in an alert. After declaring the function, try running it with different options. There must be at least 3 doors.
 
 var door = 1
 
